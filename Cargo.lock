@@ -2036,6 +2036,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "uniffi-foreign-async-trait"
+version = "0.1.0"
+dependencies = [
+ "async-trait",
+ "uniffi",
+]
+
+[[package]]
+name = "uniffi-foreign-async-trait-external"
+version = "0.1.0"
+dependencies = [
+ "uniffi",
+ "uniffi-foreign-async-trait",
+]
+
+[[package]]
 name = "uniffi_bindgen"
 version = "0.28.3"
 dependencies = [

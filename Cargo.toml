@@ -69,6 +69,8 @@ members = [
   "fixtures/large-enum",
   "fixtures/large-error",
   "fixtures/enum-types",
+  "fixtures/foreign-async-trait",
+  "fixtures/foreign-async-trait-external",
 ]
 
 resolver = "2"

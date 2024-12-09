@@ -1,0 +1,15 @@
+[package]
+name = "uniffi-foreign-async-trait-external"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "uniffi_foreign_async_trait_external"
+crate-type = ["lib", "cdylib"]
+
+[dependencies]
+uniffi = { workspace = true }
+uniffi-foreign-async-trait = { path = "../foreign-async-trait" }
+
+[dev-dependencies]
+uniffi = { workspace = true, features = ["bindgen-tests"] }
